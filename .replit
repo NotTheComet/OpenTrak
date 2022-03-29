@@ -1,4 +1,6 @@
-entrypoint = "index.js"
+entrypoint = "main.js"
+
+
 
 [interpreter]
 command = [
@@ -66,7 +68,7 @@ support = true
       cwd = "."
       environment = []
       pauseForSourceMap = false
-      program = "./index.js"
+      program = "./main.js"
       request = "launch"
       sourceMaps = true
       stopOnEntry = false
